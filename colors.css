@@ -1,0 +1,61 @@
+/* PRIMITIVE VARIABLES */
+:root {
+--slate-50:  #f8fafc;
+--slate-100: #f1f5f9; 
+--slate-200: #e2e8f0; 
+--slate-400: #94a3b8; 
+--slate-600: #475569; 
+--slate-800: #1e293b; 
+
+--emerald-50: #ecfdf5; 
+--emerald-100: #d1fae5; 
+--emerald-200: #a7f3d0; 
+--emerald-400: #34d399; 
+--emerald-600: #059669; 
+--emerald-800: #065f46; 
+
+--orange-50: #fff7ed; 
+--orange-100: #ffedd5; 
+--orange-200: #fed7aa; 
+--orange-400: #fb923c; 
+--orange-600: #ea580c; 
+--orange-800: #9a3412; 
+
+--rose-50: #fff1f2; 
+--rose-100: #ffe4e6; 
+--rose-200: #fecdd3; 
+--rose-400: #fb7185; 
+--rose-600: #e11d48; 
+--rose-800: #9f1239;
+}
+
+
+/* SEMANTIC COLORS */
+/* make sure that these map to vanilla tailwind classes */
+.bg-positive {background-color: var(--slate-50);}
+.bg-warning {background-color: var(--orange-50);}
+.bg-negative {background-color: var(--rose-50);}
+
+.bg-enps
+.fill-enps
+.label-enps
+
+.bg-app {background-color: var(--slate-50);}
+.bg-card {background-color: var(--slate-50);}
+
+.label-positive {color: var(--emerald-600);}
+.label-warning {color: var(--orange-600);}
+.label-negative {color: var(--rose-600);}
+.label-dark {color: var(--slate-800);}
+.label-light {color: var(--slate-600);}
+.label-placeholder {color: var(--slate-400);}
+
+.control-default {background-color: var(--slate-800);}
+.control-hover {background-color: var(--slate-600);}
+
+.border-default {border-color: var(--slate-200);}
+.border-positive {border-color: var(--emerald-200);}
+.border-warning {border-color: var(--orange-200);}
+.border-negative {border-color: var(--rose-200);}
+
+

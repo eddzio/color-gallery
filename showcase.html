@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoios Colors</title>
+    <link rel="stylesheet" href="colors.css">
+    
+    <style>
+        /* Grid styles */
+        body {
+            font-family: Helvetica, sans-serif;
+            padding: 20px;
+            background-color: #f1f5f9;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: white;
+
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .title {
+            font-family: ui-monospace, Menlo, Monaco,;
+            margin-bottom: 4px;
+            font-size: 16px;
+            color: var(--grey-800);
+        }
+
+        .hex-code {
+            font-family: ui-monospace, Menlo, Monaco,;
+            color: #333;
+        }
+
+        .color-box {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <!-- BASE COLORS -->
+    <h1>Primitive CSS Variables</h1>
+
+    <!-- Grey colors -->
+    <div class="grid">    
+        <h2>Grey</h2>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--grey-50);"></div>
+            <div class="title">--grey-50</div>
+            <div class="hex-code">#f8fafc</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--grey-100);"></div>
+            <div class="title">--grey-100</div>
+            <div class="hex-code">#f1f5f9</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--grey-200);"></div>
+            <div class="title">--grey-200</div>
+            <div class="hex-code">#e2e8f0</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--grey-400);"></div>
+            <div class="title">--grey-400</div>
+            <div class="hex-code">#94a3b8</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--grey-600);"></div>
+            <div class="title">--grey-600</div>
+            <div class="hex-code">#475569</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--grey-800);"></div>
+            <div class="title">--grey-800</div>
+            <div class="hex-code">#1e293b</div>
+        </div>
+    </div>
+
+    
+    <!-- Emerald -->
+    <div class="grid">
+        <h2>Emerald</h2>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--emerald-50);"></div>
+            <div class="title">--emerald-50</div>
+            <div class="hex-code">#fafafa</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--emerald-100);"></div>
+            <div class="title">--emerald-100</div>
+            <div class="hex-code">#f5f5f5</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--emerald-200);"></div>
+            <div class="title">--emerald-200</div>
+            <div class="hex-code">#eeeeee</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--emerald-400);"></div>
+            <div class="title">--emerald-400</div>
+            <div class="hex-code">#bdbdbd</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--emerald-600);"></div>
+            <div class="title">--emerald-600</div>
+            <div class="hex-code">#757575</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--emerald-800);"></div>
+            <div class="title">--emerald-800</div>
+            <div class="hex-code">#757575</div>
+        </div>
+    </div>
+
+<!-- Orange -->
+    <div class="grid">
+        <h2>Orange</h2>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--orange-50);"></div>
+            <div class="title">--orange-50</div>
+            <div class="hex-code">#fafafa</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--orange-100);"></div>
+            <div class="title">--orange-100</div>
+            <div class="hex-code">#f5f5f5</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--orange-200);"></div>
+            <div class="title">--orange-200</div>
+            <div class="hex-code">#eeeeee</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--orange-400);"></div>
+            <div class="title">--orange-400</div>
+            <div class="hex-code">#bdbdbd</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--orange-600);"></div>
+            <div class="title">--orange-600</div>
+            <div class="hex-code">#757575</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--orange-800);"></div>
+            <div class="title">--orange-800</div>
+            <div class="hex-code">#757575</div>
+        </div>
+    </div>
+
+<!-- Rose -->
+    <div class="grid">
+        <h2>Rose</h2>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--rose-50);"></div>
+            <div class="title">--rose-50</div>
+            <div class="hex-code">#fafafa</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--rose-100);"></div>
+            <div class="title">--rose-100</div>
+            <div class="hex-code">#f5f5f5</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--rose-200);"></div>
+            <div class="title">--rose-200</div>
+            <div class="hex-code">#eeeeee</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--rose-400);"></div>
+            <div class="title">--rose-400</div>
+            <div class="hex-code">#bdbdbd</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--rose-600);"></div>
+            <div class="title">--rose-600</div>
+            <div class="hex-code">#757575</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box" style="background-color: var(--rose-800);"></div>
+            <div class="title">--rose-800</div>
+            <div class="hex-code">#757575</div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
