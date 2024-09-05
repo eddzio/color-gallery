@@ -1,5 +1,8 @@
 /* PRIMITIVE VARIABLES */
 :root {
+
+/* neutral and accent colors */
+--white: #fff;
 --slate-50:  #f8fafc;
 --slate-100: #f1f5f9; 
 --slate-200: #e2e8f0; 
@@ -7,6 +10,7 @@
 --slate-600: #475569; 
 --slate-800: #1e293b; 
 
+/* success and wellbeing colors */
 --emerald-50: #ecfdf5; 
 --emerald-100: #d1fae5; 
 --emerald-200: #a7f3d0; 
@@ -14,6 +18,7 @@
 --emerald-600: #059669; 
 --emerald-800: #065f46; 
 
+/* warning and stress */
 --orange-50: #fff7ed; 
 --orange-100: #ffedd5; 
 --orange-200: #fed7aa; 
@@ -21,13 +26,23 @@
 --orange-600: #ea580c; 
 --orange-800: #9a3412; 
 
+/* error colors */
 --rose-50: #fff1f2; 
 --rose-100: #ffe4e6; 
 --rose-200: #fecdd3; 
 --rose-400: #fb7185; 
 --rose-600: #e11d48; 
 --rose-800: #9f1239;
+
+/* violet colors */
+--violet-50: #f5f3ff; 
+--violet-100: #ede9fe; 
+--violet-200: #ddd6fe; 
+--violet-400: #a78bfa; 
+--violet-600: #7c3aed; 
+--violet-800: #5b21b6;
 }
+
 
 
 /* SEMANTIC COLORS */
@@ -35,27 +50,40 @@
 .bg-positive {background-color: var(--slate-50);}
 .bg-warning {background-color: var(--orange-50);}
 .bg-negative {background-color: var(--rose-50);}
-
-.bg-enps
-.fill-enps
-.label-enps
+.bg-neutral {background-color: var(--slate-100);}
 
 .bg-app {background-color: var(--slate-50);}
 .bg-card {background-color: var(--slate-50);}
 
-.label-positive {color: var(--emerald-600);}
-.label-warning {color: var(--orange-600);}
-.label-negative {color: var(--rose-600);}
-.label-dark {color: var(--slate-800);}
-.label-light {color: var(--slate-600);}
-.label-placeholder {color: var(--slate-400);}
+.bg-wellbeing {background-color: var(--emerald-50);}
+.bg-stress {background-color: var(--orange-50);}
+.bg-enps {background-color: var(--violet-50);}
 
+/* labels */
+.label-wellbeing {background-color: var(--emerald-600);}
+.label-stress {background-color: var(--orange-600);}
+.label-enps {background-color: var(--violet-600);}
+
+.label-positive {background-color: var(--emerald-600);}
+.label-warning {background-color: var(--orange-600);}
+.label-negative {background-color: var(--rose-600);}
+.label-dark {background-color: var(--slate-800);}
+.label-light {background-color: var(--slate-600);}
+.label-placeholder {background-color: var(--slate-400);}
+
+/* fills */
+.fill-wellbeing {background-color: var(--emerald-600);}
+.fill-stress {background-color: var(--orange-600);}
+.fill-enps {background-color: var(--violet-600);}
+
+/* controls */
 .control-default {background-color: var(--slate-800);}
 .control-hover {background-color: var(--slate-600);}
 
-.border-default {border-color: var(--slate-200);}
-.border-positive {border-color: var(--emerald-200);}
-.border-warning {border-color: var(--orange-200);}
-.border-negative {border-color: var(--rose-200);}
+/* borders */
+.border-default {background-color: var(--slate-200);}
+.border-positive {background-color: var(--emerald-200);}
+.border-warning {background-color: var(--orange-200);}
+.border-negative {background-color: var(--rose-200);}
 
 
