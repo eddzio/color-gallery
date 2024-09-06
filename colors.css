@@ -46,10 +46,9 @@
 
 
 /* SEMANTIC COLORS */
-/* make sure that these map to vanilla tailwind classes */
-.bg-positive {background-color: var(--emerald-50);}
-.bg-warning {background-color: var(--orange-50);}
-.bg-negative {background-color: var(--rose-50);}
+.bg-positive {background-color: var(--emerald-100);}
+.bg-warning {background-color: var(--orange-100);}
+.bg-negative {background-color: var(--rose-100);}
 .bg-neutral {background-color: var(--slate-100);}
 
 .bg-app {background-color: var(--slate-50);}
