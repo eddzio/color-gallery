@@ -18,7 +18,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             gap: 10px;
-            margin-bottom: 12px;
+            margin-bottom: 32px;
         }
 
         .grid-item {
@@ -51,9 +51,26 @@
             border-radius: 5px;
         }
 
+        h1 {
+            font-size: 24px;
+            /* line-height: 32px; */
+            font-weight: 600;
+            color: var(--slate-800);
+            margin: 0px;
+        }
         h2 {
             font-size: 18px;
+            line-height: 24px;
             font-weight: 400;
+            color: var(--slate-600);
+            margin: 24px 0px;
+        }
+        p {
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 400;
+            color: var(--slate-400);
+            margin: 0px;
         }
     </style>
 </head>
@@ -61,7 +78,7 @@
 
     
 <!-- BASE COLORS -->
-<h1>Primitive CSS Variables</h1>
+<h1>Tailwind CSS Variables</h1>
 
     <!-- slate colors -->
     <h2>slate</h2>
@@ -239,12 +256,13 @@
 
 <h1 style="margin-top: 64px;">Semantic classes</h1>
 
-    <h2>bg</h2>
+    <h2>Backgrounds · App, card, metrics and heatmaps</h2>
+
     <div class="grid">    
         <div class="grid-item">
             <div class="color-box bg-positive"></div>
             <div class="title">bg-positive</div>
-            <div class="description">--slate-50</div>
+            <div class="description">--emerald-50</div>
         </div>
         <div class="grid-item">
             <div class="color-box bg-warning"></div>
@@ -290,18 +308,11 @@
     </div>
 
     
-    <h2>Labels</h2>
+
+    <h2>Labels · Texts</h2>
+
     <div class="grid">
-        <div class="grid-item">
-            <div class="color-box label-wellbeing"></div>
-            <div class="title">label-wellbeing</div>
-            <div class="description">--emerald-600</div>
-        </div>
-        <div class="grid-item">
-            <div class="color-box label-stress"></div>
-            <div class="title">label-stress</div>
-            <div class="description">--orange-600</div>
-        </div>
+        
         <div class="grid-item">
             <div class="color-box label-positive"></div>
             <div class="title">label-positive</div>
@@ -316,6 +327,16 @@
             <div class="color-box label-negative"></div>
             <div class="title">label-negative</div>
             <div class="description">--rose-600</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box label-wellbeing"></div>
+            <div class="title">label-wellbeing</div>
+            <div class="description">--emerald-600</div>
+        </div>
+        <div class="grid-item">
+            <div class="color-box label-stress"></div>
+            <div class="title">label-stress</div>
+            <div class="description">--orange-600</div>
         </div>
         <div class="grid-item">
             <div class="color-box label-enps"></div>
@@ -339,7 +360,7 @@
         </div>
     </div>
 
-    <h2>fills</h2>
+    <h2>Fills · Charts</h2>
     <div class="grid">
         <div class="grid-item">
             <div class="color-box fill-wellbeing"></div>
@@ -358,7 +379,7 @@
         </div>
     </div>
 
-    <h2>controls</h2>
+    <h2>Controls · Checkboxes, buttons, radio buttons, etc.</h2>
     <div class="grid">
         <div class="grid-item">
             <div class="color-box control-default"></div>
@@ -372,7 +393,7 @@
         </div>
     </div>
 
-    <h2>borders</h2>
+    <h2>Borders</h2>
     <div class="grid">
         <div class="grid-item">
             <div class="color-box border-default"></div>

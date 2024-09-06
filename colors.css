@@ -47,13 +47,13 @@
 
 /* SEMANTIC COLORS */
 /* make sure that these map to vanilla tailwind classes */
-.bg-positive {background-color: var(--slate-50);}
+.bg-positive {background-color: var(--emerald-50);}
 .bg-warning {background-color: var(--orange-50);}
 .bg-negative {background-color: var(--rose-50);}
 .bg-neutral {background-color: var(--slate-100);}
 
 .bg-app {background-color: var(--slate-50);}
-.bg-card {background-color: var(--slate-50);}
+.bg-card {background-color: var(--white);}
 
 .bg-wellbeing {background-color: var(--emerald-50);}
 .bg-stress {background-color: var(--orange-50);}
