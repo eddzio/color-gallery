@@ -45,6 +45,7 @@
 
 
 
+
 /* SEMANTIC COLORS */
 .bg-positive {background-color: var(--emerald-100);}
 .bg-warning {background-color: var(--orange-100);}
@@ -84,5 +85,3 @@
 .border-positive {background-color: var(--emerald-200);}
 .border-warning {background-color: var(--orange-200);}
 .border-negative {background-color: var(--rose-200);}
-
-
