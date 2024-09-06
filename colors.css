@@ -48,8 +48,10 @@
 
 /* SEMANTIC COLORS */
 .bg-positive {background-color: var(--emerald-100);}
+.bg-best {background-color: var(--emerald-400);}
 .bg-warning {background-color: var(--orange-100);}
 .bg-negative {background-color: var(--rose-100);}
+.bg-worst {background-color: var(--rose-400);}
 .bg-neutral {background-color: var(--slate-100);}
 
 .bg-app {background-color: var(--slate-50);}
@@ -65,8 +67,10 @@
 .label-enps {background-color: var(--violet-600);}
 
 .label-positive {background-color: var(--emerald-600);}
+.label-best {background-color: var(--white);}
 .label-warning {background-color: var(--orange-600);}
 .label-negative {background-color: var(--rose-600);}
+.label-worst {background-color: var(--white);}
 .label-dark {background-color: var(--slate-800);}
 .label-light {background-color: var(--slate-600);}
 .label-placeholder {background-color: var(--slate-400);}
@@ -77,8 +81,10 @@
 .fill-enps {background-color: var(--violet-600);}
 
 /* controls */
-.control-default {background-color: var(--slate-800);}
-.control-hover {background-color: var(--slate-600);}
+.control-primary-default {background-color: var(--slate-800);}
+.control-primary-hover {background-color: var(--slate-600);}
+.control-secondary-default {background-color: var(--white);}
+.control-secondary-hover {background-color: var(--slate-50);}
 
 /* borders */
 .border-default {background-color: var(--slate-200);}
