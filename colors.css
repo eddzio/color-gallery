@@ -87,7 +87,8 @@
 .control-secondary-hover {background-color: var(--slate-50);}
 
 /* borders */
-.border-default {background-color: var(--slate-200);}
-.border-positive {background-color: var(--emerald-200);}
-.border-warning {background-color: var(--orange-200);}
-.border-negative {background-color: var(--rose-200);}
+.border-card {background-color: var(--slate-200);}
+.border-neutral {background-color: var(--slate-400);}
+.border-positive {background-color: var(--emerald-400);}
+.border-warning {background-color: var(--orange-400);}
+.border-negative {background-color: var(--rose-400);}
