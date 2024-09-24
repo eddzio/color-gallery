@@ -76,6 +76,7 @@
 .label-placeholder {background-color: var(--slate-400);}
 
 /* fills */
+.fill-neutral {background-color: var(--slate-200);}
 .fill-wellbeing {background-color: var(--emerald-600);}
 .fill-stress {background-color: var(--orange-600);}
 .fill-enps {background-color: var(--violet-600);}
